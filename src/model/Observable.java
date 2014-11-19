@@ -11,7 +11,7 @@ public abstract class Observable {
         observers = new ArrayList<>();
     }
     
-    public abstract void addListener(Observer observer);
+    public abstract void addObserver(Observer observer);
     
     public void notifyObservers() {
         for (Observer observer : observers) {

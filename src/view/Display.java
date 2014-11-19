@@ -9,7 +9,7 @@ public class Display extends Observer {
 
     public Display(Document document) {
         this.document = document;
-        document.addListener(this);
+        document.addObserver(this);
     }
 
     @Override

@@ -22,7 +22,7 @@ public class Document extends Observable {
     }
 
     @Override
-    public void addListener(Observer observer) {
+    public void addObserver(Observer observer) {
         observers.add(observer);
     }
     
